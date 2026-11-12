@@ -10,7 +10,7 @@ from google.genai import types as genai_types
 TELEGRAM_BOT_TOKEN = "8862107968:AAEqE9-yld4AayfzAkUF8e90YTHAaM6i7a4"
 
 # 2. Google AI Studio'dan olgan API kalitingizni yozing:
-GEMINI_API_KEY = "AQ.Ab8RN6IAe4PUHlbj5ZEMCMISQgkglGxkMYDHS0Bg40T2QoFPnw"
+GEMINI_API_KEY = "AQ.Ab8RN6KO4geh4FHw5ZPccC7yQHY_sXlRhyiLXSIt3RlVvmrMjg"
 
 client = genai.Client(api_key=GEMINI_API_KEY)
 bot = Bot(token=TELEGRAM_BOT_TOKEN)
