@@ -1,4 +1,3 @@
-
 import asyncio
 import logging
 import sys
@@ -11,7 +10,7 @@ from google.genai import types as genai_types
 TELEGRAM_BOT_TOKEN = "8862107968:AAEqE9-yld4AayfzAkUF8e90YTHAaM6i7a4"
 
 # 2. Google AI Studio'dan olgan API kalitingizni yozing:
-GEMINI_API_KEY = "AQ.Ab8RN6I6MBXckib8-XW1QMh1Sq-LxABqmA8oJQHwYufVcZpLgQ"
+GEMINI_API_KEY = "AQ.Ab8RN6IAe4PUHlbj5ZEMCMISQgkglGxkMYDHS0Bg40T2QoFPnw"
 
 client = genai.Client(api_key=GEMINI_API_KEY)
 bot = Bot(token=TELEGRAM_BOT_TOKEN)
@@ -53,3 +52,4 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+    
